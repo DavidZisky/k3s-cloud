@@ -1,6 +1,6 @@
 # k3s-cloud
 
-([k3s]https://k3s.io/) allows you to spin up Kubernetes cluster in seconds. Unfortunately it does not come with cloud providers support so you can't use cloud LB/DNS/storage. This repo shows (and provides ready to use solutions too) how to integrate ([CCM]https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/) with k3s.
+[k3s](https://k3s.io/) allows you to spin up Kubernetes cluster in seconds. Unfortunately it does not come with cloud providers support so you can't use cloud LB/DNS/storage. This repo shows (and provides ready to use solutions too) how to integrate [CCM](https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/) with k3s.
 
 
 # What does it mean
@@ -18,7 +18,7 @@ For DigitalOcean the only thing you need is token ([How to get token](https://ww
 
 REQUIREMENTS:
 
-1. Make sure you have ([jq]https://stedolan.github.io/jq/) installed
+1. Make sure you have [jq](https://stedolan.github.io/jq/) installed
 2. Add your DigitalOcean API Token and SSH Key fingerprint in .env file
 
 
